@@ -93,13 +93,10 @@ while True:
         selection = int(input('Select Your Choice: '))
         if selection == 1:
             print(Txt_to_Morse())
-            break
         elif selection == 2:
             print(Morse_to_Txt())
-            break
         elif selection == 3:
             print('Exiting')
-            break
         else:
             print('Wrong Selection, enter again')
     except:
